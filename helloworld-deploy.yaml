@@ -14,4 +14,4 @@ spec:
       - name: podinfo
         image: gcr.io/certain-nexus-865/podinformation:latest
         ports:
-        - containerPort: 80
+        - containerPort: 8080
