@@ -1,6 +1,8 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
+  annonations:
+    flux.weave.works/automated: "true"
   name: podinfo
 spec:
   minReadySeconds: 5
