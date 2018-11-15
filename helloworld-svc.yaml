@@ -8,5 +8,5 @@ spec:
     app: podinfo
   ports:
     - protocol: TCP
-      port: 8100
+      port: 8200
       targetPort: 8080
